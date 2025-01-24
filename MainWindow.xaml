@@ -1,0 +1,149 @@
+﻿<Window x:Class="coba_aplikasi_paint.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:coba_aplikasi_paint"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,364">
+        <DockPanel Background="Black" LastChildFill="False" Margin="0,0,730,0">
+            <ToolBar Background="White" Width="70" Height="70">
+                <RadioButton Name="Tombol_Garis"
+                             Height="70" Width="42" GroupName="Bentuk"
+                             IsChecked="True" Click="Tombol_Garis_Click">
+                    <RadioButton.Background>
+                        <ImageBrush ImageSource="/Line.png"/>
+                    </RadioButton.Background>
+                </RadioButton>
+            </ToolBar>
+        </DockPanel>
+        <DockPanel Background="Black" Margin="70,0,584,35">
+            <ToolBar>
+                <RadioButton Name="Tombol_Lingkaran" 
+                             Height="30" Width="60" GroupName="Bentuk"
+                             Click="Tombol_Lingkaran_Click">
+                    <RadioButton.Background>
+                        <ImageBrush ImageSource="/Circle.png"/>
+                    </RadioButton.Background>
+                </RadioButton>
+                <RadioButton Name="Tombol_Kotak" 
+                             Height="30" Width="60" GroupName="Bentuk"
+                             Click="Tombol_Kotak_Click">
+                    <RadioButton.Background>
+                        <ImageBrush ImageSource="/Square.png"/>
+                    </RadioButton.Background>
+                </RadioButton>
+            </ToolBar>
+        </DockPanel>
+        <DockPanel Background="Black" Margin="70,35,584,0">
+            <ToolBar>
+                <RadioButton Name="Tombol_lingkaranPenuh"
+                             Height="30" Width="60" GroupName="Bentuk"
+                             Click="Tombol_lingkaranPenuh_Click">
+                    <RadioButton.Background>
+                        <ImageBrush ImageSource="/FullCircle.png"/>
+                    </RadioButton.Background>
+                </RadioButton>
+                <RadioButton Name="Tombol_KotakPenuh"
+                             Height="30" Width="60" GroupName="Bentuk"
+                             Click="Tombol_KotakPenuh_Click">
+                    <RadioButton.Background>
+                        <ImageBrush ImageSource="/FullSquare.png"/>
+                    </RadioButton.Background>
+                </RadioButton>
+            </ToolBar>
+        </DockPanel>
+        <DockPanel Background="Black" LastChildFill="False" Margin="221,0,255,35">
+            <ToolBar Width="325">
+                <RadioButton Name="Warna_Hitam" GroupName="Warna"
+                             Height="30" Width="30" Background="black" 
+                             Click="Warna_Hitam_Click"/>
+                <RadioButton Name="Warna_Coklat" GroupName="Warna"
+                             Height="30" Width="30" Background="Brown" 
+                             Click="Warna_Coklat_Click"/>
+                <RadioButton Name="Warna_Merah" GroupName="Warna"
+                             Height="30" Width="30" Background="Red" 
+                             Click="Warna_Merah_Click"/>
+                <RadioButton Name="Warna_Coral" GroupName="Warna"
+                             Height="30" Width="30" Background="Coral" 
+                             Click="Warna_Coral_Click"/>
+                <RadioButton Name="Warna_Kuning" GroupName="Warna"
+                             Height="30" Width="30" Background="Yellow" 
+                             Click="Warna_Kuning_Click"/>
+                <RadioButton Name="Warna_Hijau" GroupName="Warna"
+                             Height="30" Width="30" Background="Green" 
+                             Click="Warna_Hijau_Click"/>
+                <RadioButton Name="Warna_Biru" GroupName="Warna"
+                             Height="30" Width="30" Background="DarkBlue" 
+                             Click="Warna_Hijau_Click"/>
+                <RadioButton Name="Warna_BiruAwan" GroupName="Warna"
+                             Height="30" Width="30" Background="DeepSkyBlue" 
+                             Click="Warna_BiruAwan_Click"/>
+                <RadioButton Name="Warna_Ungu" GroupName="Warna"
+                             Height="30" Width="30" Background="Purple" 
+                             Click="Warna_Ungu_Click"/>
+                <RadioButton Name="Warna_PinkTua" GroupName="Warna"
+                             Height="30" Width="30" Background="PaleVioletRed" 
+                             Click="Warna_PinkTua_Click"/>
+            </ToolBar>
+        </DockPanel>
+        <DockPanel Background="Black" Margin="221,35,255,0">
+            <ToolBar>
+                <RadioButton Name="Warna_Abu" GroupName="Warna"
+                             Height="30" Width="30" Background="Gray" 
+                             Click="Warna_Abu_Click"/>
+                <RadioButton Name="Warna_CoklatMuda" GroupName="Warna"
+                             Height="30" Width="30" Background="RosyBrown" 
+                             Click="Warna_CoklatMuda_Click"/>
+                <RadioButton Name="Warna_Pink" GroupName="Warna"
+                             Height="30" Width="30" Background="Pink" 
+                             Click="Warna_Pink_Click"/>
+                <RadioButton Name="Warna_Orange" GroupName="Warna"
+                             Height="30" Width="30" Background="Orange" 
+                             Click="Warna_Orange_Click"/>
+                <RadioButton Name="Warna_KuningMuda" GroupName="Warna"
+                             Height="30" Width="30" Background="LightYellow" 
+                             Click="Warna_KuningMuda_Click"/>
+                <RadioButton Name="Warna_HijauMuda" GroupName="Warna"
+                             Height="30" Width="30" Background="YellowGreen" 
+                             Click="Warna_HijauMuda_Click"/>
+                <RadioButton Name="Warna_BiruMuda" GroupName="Warna"
+                             Height="30" Width="30" Background="Blue" 
+                             Click="Warna_BiruMuda_Click"/>
+                <RadioButton Name="Warna_BiruLaut" GroupName="Warna"
+                             Height="30" Width="30" Background="CornflowerBlue" 
+                             Click="Warna_BiruLaut_Click"/>
+                <RadioButton Name="Warna_UnguMuda" GroupName="Warna"
+                             Height="30" Width="30" Background="MediumPurple" 
+                             Click="Warna_UnguMuda_Click"/>
+                <RadioButton Name="Warna_PinkLipstik" GroupName="Warna"
+                             Height="30" Width="30" Background="HotPink" 
+                             Click="Warna_PinkLipstik_Click"/>
+            </ToolBar>
+        </DockPanel>
+        <DockPanel Background="Black" Margin="545,0,0,0">
+            <ToolBar>
+                <RadioButton Background="LightGray" Name="tebal_1" Content="1pt" 
+                             Height="70" Width="53" GroupName="Tebal"
+                             IsChecked="True" Click="tebal_1_Click"/>
+                <RadioButton Background="LightGray" Name="tebal_2" Content="2pt" 
+                             Height="70" Width="53" GroupName="Tebal"
+                             IsChecked="True" Click="tebal_2_Click"/>
+                <RadioButton Background="LightGray" Name="tebal_3" Content="3pt" 
+                             Height="70" Width="53" GroupName="Tebal"
+                             IsChecked="True" Click="tebal_3_Click"/>
+                <RadioButton Name="undo"
+                             Height="70" Width="70" GroupName="Tebal"
+                             IsChecked="True" Click="undo_Click">
+                    <RadioButton.Background>
+                        <ImageBrush ImageSource="/UNDO.png"/>
+                    </RadioButton.Background>
+                </RadioButton>
+            </ToolBar>
+        </DockPanel>
+        <Canvas Name="myCanvas" Background="White" Margin="0,75,0,-364" Width="800"
+                MouseDown="myCanvas_MouseDown" MouseUp="myCanvas_MouseUp" MouseMove="myCanvas_MouseMove"/>
+        <Canvas/>
+    </Grid>
+</Window>

@@ -1,0 +1,59 @@
+# User-specific files
+.vs/
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]istro/
+[Dd]ebug/
+
+# .NET files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.dbmdl
+*.bak
+*.bak2
+*.log
+
+# ASP.NET Core
+wwwroot/
+
+# Temporary ASP.NET files
+TemporaryASP.NETFiles/
+
+# NuGet Packages
+.nuget/
+packages/
+
+# VS for Mac
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Ignore JetBrains Rider project files
+.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
