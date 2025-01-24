@@ -1,8 +1,9 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.5.2.0
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePaint", "SimplePaint.csproj", "{24AC3BEE-FFCA-044D-BA75-CA843F75311E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePaint", "SimplePaint\SimplePaint.csproj", "{96B05B42-452E-43F7-B598-EF616F8E59AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{24AC3BEE-FFCA-044D-BA75-CA843F75311E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{24AC3BEE-FFCA-044D-BA75-CA843F75311E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{24AC3BEE-FFCA-044D-BA75-CA843F75311E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{24AC3BEE-FFCA-044D-BA75-CA843F75311E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B05B42-452E-43F7-B598-EF616F8E59AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B05B42-452E-43F7-B598-EF616F8E59AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B05B42-452E-43F7-B598-EF616F8E59AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B05B42-452E-43F7-B598-EF616F8E59AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C38857F1-1F8B-4DE2-BCF6-8D9B349ECE6D}
+		SolutionGuid = {E82F5524-D2B7-4F04-BB42-C99C0F534042}
 	EndGlobalSection
 EndGlobal
